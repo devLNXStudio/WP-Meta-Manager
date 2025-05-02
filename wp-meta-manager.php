@@ -12,7 +12,6 @@
  * Domain Path: /languages
  */
 
-// Zabezpieczenie przed bezpośrednim dostępem do pliku
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -20,7 +19,7 @@ if (!defined('ABSPATH')) {
 class WP_Meta_OG_Manager {
 
     /**
-     * Przechowywanie instancji WPML SitePress jeśli jest dostępny
+     * Przechowywanie instancji WPML jeśli jest dostępny
      */
     private $sitepress = null;
 
@@ -534,13 +533,13 @@ class WP_Meta_OG_Manager {
                 continue;
             }
             
-            // Uzyskaj kod języka zgodny z RFC 5646 (używany w hreflang)
+
             $hreflang = $lang;
             if (method_exists($this->sitepress, 'get_language_details')) {
                 $language_details = $this->sitepress->get_language_details($lang);
                 
                 if (isset($language_details['default_locale'])) {
-                    // Konwertuj format locale (np. en_US) na format hreflang (np. en-us)
+
                     $hreflang = strtolower(str_replace('_', '-', $language_details['default_locale']));
                 }
             }
@@ -591,13 +590,13 @@ class WP_Meta_OG_Manager {
  * Inicjalizacja pluginu
  */
 function wp_meta_og_manager_init() {
-    // Tworzymy katalog dla tłumaczeń
+
     $lang_dir = plugin_dir_path(__FILE__) . 'languages';
     if (!file_exists($lang_dir)) {
         wp_mkdir_p($lang_dir);
     }
     
-    // Inicjalizujemy plugin
+
     global $wp_meta_og_manager;
     $wp_meta_og_manager = new WP_Meta_OG_Manager();
 }
@@ -646,5 +645,5 @@ function wp_meta_og_manager_admin_notice() {
 // Dodaj powiadomienie administracyjne dla wielodomenowej konfiguracji WPML
 add_action('admin_notices', 'wp_meta_og_manager_admin_notice');
 
-// Używamy bezpiecznych hooks do inicjalizacji
+
 add_action('init', 'wp_meta_og_manager_init');
