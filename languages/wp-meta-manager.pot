@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-meta-manager 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Article', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Jeśli pozostawisz puste, zostanie użyte miniatura wpisu.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Jeśli pozostawisz puste, zostanie użyty Meta Opis.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Jeśli pozostawisz puste, zostanie użyty Meta Tytuł lub tytuł wpisu.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Jeśli pozostawisz puste, zostanie użyty domyślny tytuł wpisu.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Konfiguruj domeny WPML', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Krótki opis treści (idealnie 150-160 znaków).', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Lista słów kluczowych oddzielonych przecinkami.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta & OG Tags Manager', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta Opis:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta Słowa Kluczowe:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta Tagi', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta Tytuł:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Meta tagi zostaną zastosowane dla tej wersji językowej. Każde tłumaczenie może mieć własne meta tagi.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "OG Obraz URL:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "OG Opis:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "OG Typ:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "OG Tytuł:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Open Graph Tagi', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Product', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Ta domena jest używana dla tego języka. Meta tagi i OG tagi uwzględnią tę domenę przy generowaniu URL.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Te informacje będą używane przez wyszukiwarki do indeksowania Twojej strony.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Te informacje będą używane przy udostępnianiu treści w mediach społecznościowych.', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "WPML Domain', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "WPML Language', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Website', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "devLNX Meta & OG Tags Manager - Uwaga:', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Wybierz obraz dla Open Graph', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Wybierz obraz', 'wp-meta-og-manager"
+msgstr ""
+
+msgid "Wykryto konfigurację WPML z wieloma domenami, ale nie wszystkie języki mają przypisane domeny. Aby zapewnić prawidłowe działanie tagów Open Graph i hreflang, należy skonfigurować domeny dla wszystkich aktywnych języków w ustawieniach WPML.', 'wp-meta-og-manager"
+msgstr ""
