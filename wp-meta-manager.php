@@ -17,11 +17,6 @@ if (!defined('ABSPATH'))
     exit;
 }
 
-add_action('plugins_loaded', function ()
-{
-    load_plugin_textdomain('wp-meta-manager', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-});
-
 class WP_Meta_OG_Manager
 {
     
